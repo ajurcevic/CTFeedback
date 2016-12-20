@@ -14,6 +14,10 @@
 #import "NSBundle+CTFeedback.h"
 #import <MessageUI/MessageUI.h>
 
+
+static NSString * const kOHSemail = @"";
+static NSString * const kMAINTemail = @"";
+
 typedef NS_ENUM(NSInteger, CTFeedbackSection){
     CTFeedbackSectionEmail = 0,
     CTFeedbackSectionInput,
@@ -81,6 +85,9 @@ typedef NS_ENUM(NSInteger, CTFeedbackSection){
         self.topics = topics;
         self.localizedTopics = localizedTopics;
         self.useHTML = NO;
+        self.hidesAppNameCell = YES;
+        self.hidesAppBuildCell = YES;
+        self.hidesAppVersionCell = YES;
     }
     return self;
 }
@@ -97,7 +104,7 @@ typedef NS_ENUM(NSInteger, CTFeedbackSection){
     [self.tableView registerClass:[CTFeedbackCell class] forCellReuseIdentifier:[CTFeedbackInfoCellItem reuseIdentifier]];
     [self.tableView registerClass:[CTFeedbackCell class] forCellReuseIdentifier:[CTFeedbackAdditionInfoCellItem reuseIdentifier]];
 
-    self.cellItems = @[self.emailCellItems, self.inputCellItems, self.additionCellItems ,self.deviceInfoCellItems, self.appInfoCellItems];
+    self.cellItems = @[self.emailCellItems, self.inputCellItems, self.additionCellItems];
 
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:CTFBLocalizedString(@"Mail") style:UIBarButtonItemStylePlain target:self action:@selector(sendButtonTapped:)];
 }
@@ -408,7 +415,21 @@ static NSString * const ATTACHMENT_FILENAME = @"screenshot.jpg";
     } else if ([MFMailComposeViewController canSendMail]) {
         MFMailComposeViewController *controller = [[MFMailComposeViewController alloc] init];
         controller.mailComposeDelegate = self;
-        [controller setToRecipients:self.toRecipients];
+        //[controller setToRecipients:self.toRecipients];
+        if ([self.selectedTopic isEqualToString:@"OHS Report"]) {
+            NSArray *toRecipients = @[kOHSemail];
+            [controller setToRecipients:toRecipients];
+        }
+        else if ([self.selectedTopic isEqualToString:@"Maintenance Report"]) {
+            NSArray *toRecipients2 = @[kMAINTemail];
+            
+            [controller setToRecipients:toRecipients2];
+        }
+        else
+        {
+            NSArray *toRecipients3 = @[kOHSemail];
+            [controller setToRecipients:toRecipients3];
+        }
         [controller setCcRecipients:self.ccRecipients];
         [controller setBccRecipients:self.bccRecipients];
         [controller setSubject:self._mailSubject];
@@ -450,7 +471,6 @@ static NSString * const ATTACHMENT_FILENAME = @"screenshot.jpg";
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-//    return 3;
     return [self.cellItems count];
 }
 
