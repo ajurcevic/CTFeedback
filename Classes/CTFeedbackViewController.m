@@ -13,7 +13,7 @@
 #include <sys/sysctl.h>
 #import "NSBundle+CTFeedback.h"
 #import <MessageUI/MessageUI.h>
-
+#import "MMDrawerBarButtonItem.h"
 
 static NSString * const kOHSemail = @"";
 static NSString * const kMAINTemail = @"";
@@ -107,6 +107,21 @@ typedef NS_ENUM(NSInteger, CTFeedbackSection){
     self.cellItems = @[self.emailCellItems, self.inputCellItems, self.additionCellItems];
 
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:CTFBLocalizedString(@"Mail") style:UIBarButtonItemStylePlain target:self action:@selector(sendButtonTapped:)];
+
+   [self setupLeftMenuButton];
+}
+
+-(void)setupLeftMenuButton{
+    MMDrawerBarButtonItem * leftDrawerButton = [[MMDrawerBarButtonItem alloc] initWithTarget:self action:@selector(leftDrawerButtonPress:)];
+    [self.navigationItem setLeftBarButtonItem:leftDrawerButton animated:YES];
+}
+
+-(void)leftDrawerButtonPress:(id)sender{
+    [self.mm_drawerController toggleDrawerSide:MMDrawerSideLeft animated:YES completion:nil];
+}
+
+-(void)doubleTap:(UITapGestureRecognizer*)gesture{
+    [self.mm_drawerController bouncePreviewForDrawerSide:MMDrawerSideLeft completion:nil];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -116,7 +131,7 @@ typedef NS_ENUM(NSInteger, CTFeedbackSection){
     if (self.navigationController.navigationBarHidden) {
         self.navigationController.navigationBarHidden = NO;
     }
-
+/*
 	if(self.navigationController != nil){
 		if( [self.navigationController viewControllers][0] == self){
 			self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCancel target:self action:@selector(cancelButtonTapped:)];
@@ -126,7 +141,7 @@ typedef NS_ENUM(NSInteger, CTFeedbackSection){
 		}
 	} else {
 		self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCancel target:self action:@selector(cancelButtonTapped:)];
-	}
+	}*/
 }
 
 - (void)didReceiveMemoryWarning
