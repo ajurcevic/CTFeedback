@@ -36,38 +36,6 @@
 		CB876D012CED040B497A28CF /* CTFeedbackCellItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CB876438D25C52E9455F30EB /* CTFeedbackCellItem.m */; };
 		CB876FE09FF1D6E4370A491A /* NSBundle+CTFeedback.m in Sources */ = {isa = PBXBuildFile; fileRef = CB876691CB3B7AC00E58896D /* NSBundle+CTFeedback.m */; };
 		CB876FF2E2DDFB54569C1BC8 /* NSBundle+CTFeedback.m in Sources */ = {isa = PBXBuildFile; fileRef = CB876691CB3B7AC00E58896D /* NSBundle+CTFeedback.m */; };
-		D0A44EDB1E0A845900BEACAC /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = D0A44EA01E0A845900BEACAC /* .gitignore */; };
-		D0A44EDC1E0A845900BEACAC /* CHANGELOG.md in Sources */ = {isa = PBXBuildFile; fileRef = D0A44EA11E0A845900BEACAC /* CHANGELOG.md */; };
-		D0A44EDD1E0A845900BEACAC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0A44EA41E0A845900BEACAC /* Default-568h@2x.png */; };
-		D0A44EDE1E0A845900BEACAC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D0A44EA51E0A845900BEACAC /* Default.png */; };
-		D0A44EDF1E0A845900BEACAC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0A44EA61E0A845900BEACAC /* Default@2x.png */; };
-		D0A44EE01E0A845900BEACAC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0A44EA71E0A845900BEACAC /* InfoPlist.strings */; };
-		D0A44EE11E0A845900BEACAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A44EA91E0A845900BEACAC /* main.m */; };
-		D0A44EE21E0A845900BEACAC /* MMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A44EAB1E0A845900BEACAC /* MMAppDelegate.m */; };
-		D0A44EE31E0A845900BEACAC /* MMCenterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A44EAD1E0A845900BEACAC /* MMCenterTableViewCell.m */; };
-		D0A44EE41E0A845900BEACAC /* MMDrawerControllerKitchenSink-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0A44EAE1E0A845900BEACAC /* MMDrawerControllerKitchenSink-Info.plist */; };
-		D0A44EE51E0A845900BEACAC /* MMExampleCenterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A44EB11E0A845900BEACAC /* MMExampleCenterTableViewController.m */; };
-		D0A44EE61E0A845900BEACAC /* MMExampleDrawerVisualStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A44EB31E0A845900BEACAC /* MMExampleDrawerVisualStateManager.m */; };
-		D0A44EE71E0A845900BEACAC /* MMExampleLeftSideDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A44EB51E0A845900BEACAC /* MMExampleLeftSideDrawerViewController.m */; };
-		D0A44EE81E0A845900BEACAC /* MMExampleRightSideDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A44EB71E0A845900BEACAC /* MMExampleRightSideDrawerViewController.m */; };
-		D0A44EE91E0A845900BEACAC /* MMExampleSideDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A44EB91E0A845900BEACAC /* MMExampleSideDrawerViewController.m */; };
-		D0A44EEA1E0A845900BEACAC /* MMExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A44EBB1E0A845900BEACAC /* MMExampleViewController.m */; };
-		D0A44EEB1E0A845900BEACAC /* MMLogoView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A44EBD1E0A845900BEACAC /* MMLogoView.m */; };
-		D0A44EEC1E0A845900BEACAC /* MMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A44EBF1E0A845900BEACAC /* MMNavigationController.m */; };
-		D0A44EED1E0A845900BEACAC /* MMSideDrawerSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A44EC11E0A845900BEACAC /* MMSideDrawerSectionHeaderView.m */; };
-		D0A44EEE1E0A845900BEACAC /* MMSideDrawerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A44EC31E0A845900BEACAC /* MMSideDrawerTableViewCell.m */; };
-		D0A44EEF1E0A845900BEACAC /* MMTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A44EC51E0A845900BEACAC /* MMTableViewCell.m */; };
-		D0A44EF01E0A845900BEACAC /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = D0A44EC71E0A845900BEACAC /* Icon-72.png */; };
-		D0A44EF11E0A845900BEACAC /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0A44EC81E0A845900BEACAC /* Icon-72@2x.png */; };
-		D0A44EF21E0A845900BEACAC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D0A44EC91E0A845900BEACAC /* Icon.png */; };
-		D0A44EF31E0A845900BEACAC /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0A44ECA1E0A845900BEACAC /* Icon@2x.png */; };
-		D0A44EF41E0A845900BEACAC /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = D0A44ECE1E0A845900BEACAC /* LICENSE */; };
-		D0A44EF51E0A845900BEACAC /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A44ED11E0A845900BEACAC /* MMDrawerBarButtonItem.m */; };
-		D0A44EF61E0A845900BEACAC /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A44ED41E0A845900BEACAC /* MMDrawerController.m */; };
-		D0A44EF71E0A845900BEACAC /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A44ED61E0A845900BEACAC /* MMDrawerVisualState.m */; };
-		D0A44EF81E0A845900BEACAC /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A44ED81E0A845900BEACAC /* UIViewController+MMDrawerController.m */; };
-		D0A44EF91E0A845900BEACAC /* MMDrawerController.podspec in Resources */ = {isa = PBXBuildFile; fileRef = D0A44ED91E0A845900BEACAC /* MMDrawerController.podspec */; };
-		D0A44EFA1E0A845900BEACAC /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D0A44EDA1E0A845900BEACAC /* README.md */; };
 		F83DBCDB18F5C44300C0B601 /* PlatformNames.plist in Resources */ = {isa = PBXBuildFile; fileRef = F83DBCDA18F5C44300C0B601 /* PlatformNames.plist */; };
 /* End PBXBuildFile section */
 
@@ -78,13 +46,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 6AEC61211821D17600B6DB37;
 			remoteInfo = CTFeedbackDemo;
-		};
-		D0A44EFC1E0A845900BEACAC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D0A44ECB1E0A845900BEACAC /* MMDrawerControllerKitchenSink.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 294A1D0D17199537005BF6B1;
-			remoteInfo = MMDrawerControllerKitchenSink;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -149,58 +110,6 @@
 		CB876691CB3B7AC00E58896D /* NSBundle+CTFeedback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+CTFeedback.m"; sourceTree = "<group>"; };
 		CB8767F3272405CCC42F1755 /* CTFeedbackCellItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTFeedbackCellItem.h; sourceTree = "<group>"; };
 		CB876BD696F2B66A829AA415 /* NSBundle+CTFeedback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+CTFeedback.h"; sourceTree = "<group>"; };
-		D0A44EA01E0A845900BEACAC /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		D0A44EA11E0A845900BEACAC /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
-		D0A44EA41E0A845900BEACAC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		D0A44EA51E0A845900BEACAC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		D0A44EA61E0A845900BEACAC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		D0A44EA81E0A845900BEACAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D0A44EA91E0A845900BEACAC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D0A44EAA1E0A845900BEACAC /* MMAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMAppDelegate.h; sourceTree = "<group>"; };
-		D0A44EAB1E0A845900BEACAC /* MMAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMAppDelegate.m; sourceTree = "<group>"; };
-		D0A44EAC1E0A845900BEACAC /* MMCenterTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMCenterTableViewCell.h; sourceTree = "<group>"; };
-		D0A44EAD1E0A845900BEACAC /* MMCenterTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMCenterTableViewCell.m; sourceTree = "<group>"; };
-		D0A44EAE1E0A845900BEACAC /* MMDrawerControllerKitchenSink-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MMDrawerControllerKitchenSink-Info.plist"; sourceTree = "<group>"; };
-		D0A44EAF1E0A845900BEACAC /* MMDrawerControllerKitchenSink-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerControllerKitchenSink-Prefix.pch"; sourceTree = "<group>"; };
-		D0A44EB01E0A845900BEACAC /* MMExampleCenterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMExampleCenterTableViewController.h; sourceTree = "<group>"; };
-		D0A44EB11E0A845900BEACAC /* MMExampleCenterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMExampleCenterTableViewController.m; sourceTree = "<group>"; };
-		D0A44EB21E0A845900BEACAC /* MMExampleDrawerVisualStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMExampleDrawerVisualStateManager.h; sourceTree = "<group>"; };
-		D0A44EB31E0A845900BEACAC /* MMExampleDrawerVisualStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMExampleDrawerVisualStateManager.m; sourceTree = "<group>"; };
-		D0A44EB41E0A845900BEACAC /* MMExampleLeftSideDrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMExampleLeftSideDrawerViewController.h; sourceTree = "<group>"; };
-		D0A44EB51E0A845900BEACAC /* MMExampleLeftSideDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMExampleLeftSideDrawerViewController.m; sourceTree = "<group>"; };
-		D0A44EB61E0A845900BEACAC /* MMExampleRightSideDrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMExampleRightSideDrawerViewController.h; sourceTree = "<group>"; };
-		D0A44EB71E0A845900BEACAC /* MMExampleRightSideDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMExampleRightSideDrawerViewController.m; sourceTree = "<group>"; };
-		D0A44EB81E0A845900BEACAC /* MMExampleSideDrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMExampleSideDrawerViewController.h; sourceTree = "<group>"; };
-		D0A44EB91E0A845900BEACAC /* MMExampleSideDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMExampleSideDrawerViewController.m; sourceTree = "<group>"; };
-		D0A44EBA1E0A845900BEACAC /* MMExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMExampleViewController.h; sourceTree = "<group>"; };
-		D0A44EBB1E0A845900BEACAC /* MMExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMExampleViewController.m; sourceTree = "<group>"; };
-		D0A44EBC1E0A845900BEACAC /* MMLogoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMLogoView.h; sourceTree = "<group>"; };
-		D0A44EBD1E0A845900BEACAC /* MMLogoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMLogoView.m; sourceTree = "<group>"; };
-		D0A44EBE1E0A845900BEACAC /* MMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMNavigationController.h; sourceTree = "<group>"; };
-		D0A44EBF1E0A845900BEACAC /* MMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMNavigationController.m; sourceTree = "<group>"; };
-		D0A44EC01E0A845900BEACAC /* MMSideDrawerSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMSideDrawerSectionHeaderView.h; sourceTree = "<group>"; };
-		D0A44EC11E0A845900BEACAC /* MMSideDrawerSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMSideDrawerSectionHeaderView.m; sourceTree = "<group>"; };
-		D0A44EC21E0A845900BEACAC /* MMSideDrawerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMSideDrawerTableViewCell.h; sourceTree = "<group>"; };
-		D0A44EC31E0A845900BEACAC /* MMSideDrawerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMSideDrawerTableViewCell.m; sourceTree = "<group>"; };
-		D0A44EC41E0A845900BEACAC /* MMTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMTableViewCell.h; sourceTree = "<group>"; };
-		D0A44EC51E0A845900BEACAC /* MMTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMTableViewCell.m; sourceTree = "<group>"; };
-		D0A44EC71E0A845900BEACAC /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
-		D0A44EC81E0A845900BEACAC /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
-		D0A44EC91E0A845900BEACAC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		D0A44ECA1E0A845900BEACAC /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
-		D0A44ECB1E0A845900BEACAC /* MMDrawerControllerKitchenSink.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = MMDrawerControllerKitchenSink.xcodeproj; sourceTree = "<group>"; };
-		D0A44ECE1E0A845900BEACAC /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		D0A44ED01E0A845900BEACAC /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
-		D0A44ED11E0A845900BEACAC /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
-		D0A44ED21E0A845900BEACAC /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
-		D0A44ED31E0A845900BEACAC /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
-		D0A44ED41E0A845900BEACAC /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
-		D0A44ED51E0A845900BEACAC /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
-		D0A44ED61E0A845900BEACAC /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
-		D0A44ED71E0A845900BEACAC /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
-		D0A44ED81E0A845900BEACAC /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
-		D0A44ED91E0A845900BEACAC /* MMDrawerController.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MMDrawerController.podspec; sourceTree = "<group>"; };
-		D0A44EDA1E0A845900BEACAC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D16DCD50183C8D300025189E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/CTFeedbackLocalizable.strings"; sourceTree = "<group>"; };
 		EF0827E71A39E87300A6BDE3 /* bs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = bs; path = bs.lproj/CTFeedbackLocalizable.strings; sourceTree = "<group>"; };
 		EF0827E81A39E8C700A6BDE3 /* hr-HR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "hr-HR"; path = "hr-HR.lproj/CTFeedbackLocalizable.strings"; sourceTree = "<group>"; };
@@ -236,7 +145,6 @@
 		6AEC61191821D17600B6DB37 = {
 			isa = PBXGroup;
 			children = (
-				D0A44E9F1E0A845900BEACAC /* MMDrawerController */,
 				6A3F5557182340D700217253 /* CTFeedback.podspec */,
 				6AEC615D1821D18D00B6DB37 /* CTFeedback */,
 				6AEC612B1821D17600B6DB37 /* CTFeedbackDemo */,
@@ -351,105 +259,6 @@
 			path = ../Resources;
 			sourceTree = "<group>";
 		};
-		D0A44E9F1E0A845900BEACAC /* MMDrawerController */ = {
-			isa = PBXGroup;
-			children = (
-				D0A44EA01E0A845900BEACAC /* .gitignore */,
-				D0A44EA11E0A845900BEACAC /* CHANGELOG.md */,
-				D0A44EA21E0A845900BEACAC /* KitchenSink */,
-				D0A44ECE1E0A845900BEACAC /* LICENSE */,
-				D0A44ECF1E0A845900BEACAC /* MMDrawerController */,
-				D0A44ED91E0A845900BEACAC /* MMDrawerController.podspec */,
-				D0A44EDA1E0A845900BEACAC /* README.md */,
-			);
-			path = MMDrawerController;
-			sourceTree = "<group>";
-		};
-		D0A44EA21E0A845900BEACAC /* KitchenSink */ = {
-			isa = PBXGroup;
-			children = (
-				D0A44EA31E0A845900BEACAC /* ExampleFiles */,
-				D0A44EC61E0A845900BEACAC /* Icons */,
-				D0A44ECB1E0A845900BEACAC /* MMDrawerControllerKitchenSink.xcodeproj */,
-			);
-			path = KitchenSink;
-			sourceTree = "<group>";
-		};
-		D0A44EA31E0A845900BEACAC /* ExampleFiles */ = {
-			isa = PBXGroup;
-			children = (
-				D0A44EA41E0A845900BEACAC /* Default-568h@2x.png */,
-				D0A44EA51E0A845900BEACAC /* Default.png */,
-				D0A44EA61E0A845900BEACAC /* Default@2x.png */,
-				D0A44EA71E0A845900BEACAC /* InfoPlist.strings */,
-				D0A44EA91E0A845900BEACAC /* main.m */,
-				D0A44EAA1E0A845900BEACAC /* MMAppDelegate.h */,
-				D0A44EAB1E0A845900BEACAC /* MMAppDelegate.m */,
-				D0A44EAC1E0A845900BEACAC /* MMCenterTableViewCell.h */,
-				D0A44EAD1E0A845900BEACAC /* MMCenterTableViewCell.m */,
-				D0A44EAE1E0A845900BEACAC /* MMDrawerControllerKitchenSink-Info.plist */,
-				D0A44EAF1E0A845900BEACAC /* MMDrawerControllerKitchenSink-Prefix.pch */,
-				D0A44EB01E0A845900BEACAC /* MMExampleCenterTableViewController.h */,
-				D0A44EB11E0A845900BEACAC /* MMExampleCenterTableViewController.m */,
-				D0A44EB21E0A845900BEACAC /* MMExampleDrawerVisualStateManager.h */,
-				D0A44EB31E0A845900BEACAC /* MMExampleDrawerVisualStateManager.m */,
-				D0A44EB41E0A845900BEACAC /* MMExampleLeftSideDrawerViewController.h */,
-				D0A44EB51E0A845900BEACAC /* MMExampleLeftSideDrawerViewController.m */,
-				D0A44EB61E0A845900BEACAC /* MMExampleRightSideDrawerViewController.h */,
-				D0A44EB71E0A845900BEACAC /* MMExampleRightSideDrawerViewController.m */,
-				D0A44EB81E0A845900BEACAC /* MMExampleSideDrawerViewController.h */,
-				D0A44EB91E0A845900BEACAC /* MMExampleSideDrawerViewController.m */,
-				D0A44EBA1E0A845900BEACAC /* MMExampleViewController.h */,
-				D0A44EBB1E0A845900BEACAC /* MMExampleViewController.m */,
-				D0A44EBC1E0A845900BEACAC /* MMLogoView.h */,
-				D0A44EBD1E0A845900BEACAC /* MMLogoView.m */,
-				D0A44EBE1E0A845900BEACAC /* MMNavigationController.h */,
-				D0A44EBF1E0A845900BEACAC /* MMNavigationController.m */,
-				D0A44EC01E0A845900BEACAC /* MMSideDrawerSectionHeaderView.h */,
-				D0A44EC11E0A845900BEACAC /* MMSideDrawerSectionHeaderView.m */,
-				D0A44EC21E0A845900BEACAC /* MMSideDrawerTableViewCell.h */,
-				D0A44EC31E0A845900BEACAC /* MMSideDrawerTableViewCell.m */,
-				D0A44EC41E0A845900BEACAC /* MMTableViewCell.h */,
-				D0A44EC51E0A845900BEACAC /* MMTableViewCell.m */,
-			);
-			path = ExampleFiles;
-			sourceTree = "<group>";
-		};
-		D0A44EC61E0A845900BEACAC /* Icons */ = {
-			isa = PBXGroup;
-			children = (
-				D0A44EC71E0A845900BEACAC /* Icon-72.png */,
-				D0A44EC81E0A845900BEACAC /* Icon-72@2x.png */,
-				D0A44EC91E0A845900BEACAC /* Icon.png */,
-				D0A44ECA1E0A845900BEACAC /* Icon@2x.png */,
-			);
-			path = Icons;
-			sourceTree = "<group>";
-		};
-		D0A44ECC1E0A845900BEACAC /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D0A44EFD1E0A845900BEACAC /* MMDrawerControllerKitchenSink.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		D0A44ECF1E0A845900BEACAC /* MMDrawerController */ = {
-			isa = PBXGroup;
-			children = (
-				D0A44ED01E0A845900BEACAC /* MMDrawerBarButtonItem.h */,
-				D0A44ED11E0A845900BEACAC /* MMDrawerBarButtonItem.m */,
-				D0A44ED21E0A845900BEACAC /* MMDrawerController+Subclass.h */,
-				D0A44ED31E0A845900BEACAC /* MMDrawerController.h */,
-				D0A44ED41E0A845900BEACAC /* MMDrawerController.m */,
-				D0A44ED51E0A845900BEACAC /* MMDrawerVisualState.h */,
-				D0A44ED61E0A845900BEACAC /* MMDrawerVisualState.m */,
-				D0A44ED71E0A845900BEACAC /* UIViewController+MMDrawerController.h */,
-				D0A44ED81E0A845900BEACAC /* UIViewController+MMDrawerController.m */,
-			);
-			path = MMDrawerController;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -529,12 +338,6 @@
 			mainGroup = 6AEC61191821D17600B6DB37;
 			productRefGroup = 6AEC61231821D17600B6DB37 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = D0A44ECC1E0A845900BEACAC /* Products */;
-					ProjectRef = D0A44ECB1E0A845900BEACAC /* MMDrawerControllerKitchenSink.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				6AEC61211821D17600B6DB37 /* CTFeedbackDemo */,
@@ -543,40 +346,18 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		D0A44EFD1E0A845900BEACAC /* MMDrawerControllerKitchenSink.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = MMDrawerControllerKitchenSink.app;
-			remoteRef = D0A44EFC1E0A845900BEACAC /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
 		6AEC61201821D17600B6DB37 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0A44EDB1E0A845900BEACAC /* .gitignore in Resources */,
-				D0A44EE01E0A845900BEACAC /* InfoPlist.strings in Resources */,
-				D0A44EF11E0A845900BEACAC /* Icon-72@2x.png in Resources */,
 				6AEC61861821FBF800B6DB37 /* CTFeedbackLocalizable.strings in Resources */,
-				D0A44EF21E0A845900BEACAC /* Icon.png in Resources */,
-				D0A44EDD1E0A845900BEACAC /* Default-568h@2x.png in Resources */,
-				D0A44EF41E0A845900BEACAC /* LICENSE in Resources */,
 				6AEC613C1821D17600B6DB37 /* Main_iPad.storyboard in Resources */,
-				D0A44EF01E0A845900BEACAC /* Icon-72.png in Resources */,
 				F83DBCDB18F5C44300C0B601 /* PlatformNames.plist in Resources */,
-				D0A44EDF1E0A845900BEACAC /* Default@2x.png in Resources */,
-				D0A44EF91E0A845900BEACAC /* MMDrawerController.podspec in Resources */,
 				6AEC61411821D17600B6DB37 /* Images.xcassets in Resources */,
 				4BFE9D3A1BCD0FEC009C3860 /* LaunchScreen.storyboard in Resources */,
 				6AEC61391821D17600B6DB37 /* Main_iPhone.storyboard in Resources */,
-				D0A44EF31E0A845900BEACAC /* Icon@2x.png in Resources */,
-				D0A44EE41E0A845900BEACAC /* MMDrawerControllerKitchenSink-Info.plist in Resources */,
 				6AEC61301821D17600B6DB37 /* InfoPlist.strings in Resources */,
-				D0A44EDE1E0A845900BEACAC /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -596,33 +377,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0A44EE81E0A845900BEACAC /* MMExampleRightSideDrawerViewController.m in Sources */,
-				D0A44EF51E0A845900BEACAC /* MMDrawerBarButtonItem.m in Sources */,
-				D0A44EEC1E0A845900BEACAC /* MMNavigationController.m in Sources */,
-				D0A44EEA1E0A845900BEACAC /* MMExampleViewController.m in Sources */,
-				D0A44EEE1E0A845900BEACAC /* MMSideDrawerTableViewCell.m in Sources */,
-				D0A44EE31E0A845900BEACAC /* MMCenterTableViewCell.m in Sources */,
-				D0A44EE11E0A845900BEACAC /* main.m in Sources */,
-				D0A44EEF1E0A845900BEACAC /* MMTableViewCell.m in Sources */,
 				6AEC61621821D19D00B6DB37 /* CTFeedbackViewController.m in Sources */,
 				6AEC61321821D17600B6DB37 /* main.m in Sources */,
-				D0A44EFA1E0A845900BEACAC /* README.md in Sources */,
-				D0A44EED1E0A845900BEACAC /* MMSideDrawerSectionHeaderView.m in Sources */,
-				D0A44EE91E0A845900BEACAC /* MMExampleSideDrawerViewController.m in Sources */,
 				6AEC61361821D17600B6DB37 /* CTAppDelegate.m in Sources */,
 				6A3F55521823243300217253 /* CTFeedbackTopicsViewController.m in Sources */,
-				D0A44EF71E0A845900BEACAC /* MMDrawerVisualState.m in Sources */,
-				D0A44EF81E0A845900BEACAC /* UIViewController+MMDrawerController.m in Sources */,
-				D0A44EEB1E0A845900BEACAC /* MMLogoView.m in Sources */,
-				D0A44EE51E0A845900BEACAC /* MMExampleCenterTableViewController.m in Sources */,
-				D0A44EF61E0A845900BEACAC /* MMDrawerController.m in Sources */,
-				D0A44EE61E0A845900BEACAC /* MMExampleDrawerVisualStateManager.m in Sources */,
-				D0A44EE71E0A845900BEACAC /* MMExampleLeftSideDrawerViewController.m in Sources */,
 				6A3F554E18222FB400217253 /* CTFeedbackCell.m in Sources */,
 				6AEC613F1821D17600B6DB37 /* CTViewController.m in Sources */,
 				CB876D012CED040B497A28CF /* CTFeedbackCellItem.m in Sources */,
-				D0A44EE21E0A845900BEACAC /* MMAppDelegate.m in Sources */,
-				D0A44EDC1E0A845900BEACAC /* CHANGELOG.md in Sources */,
 				CB876FE09FF1D6E4370A491A /* NSBundle+CTFeedback.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -717,14 +478,6 @@
 				6A7A75831D854B6000F768CF /* sv-SE */,
 			);
 			name = CTFeedbackLocalizable.strings;
-			sourceTree = "<group>";
-		};
-		D0A44EA71E0A845900BEACAC /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D0A44EA81E0A845900BEACAC /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
