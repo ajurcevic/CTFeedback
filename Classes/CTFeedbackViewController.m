@@ -457,7 +457,10 @@ static NSString * const ATTACHMENT_FILENAME = @"screenshot.jpg";
         if (self.screenshotAttachment && [self.screenshotAttachment length]>0) {
             [controller addAttachmentData:self.screenshotAttachment mimeType:MIME_TYPE_JPEG fileName:ATTACHMENT_FILENAME];
         }
-        [self presentViewController:controller animated:YES completion:nil];
+        [self presentViewController:controller animated:YES completion:^{
+            [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+    }];
+	    
     } else {
         if ([UIAlertController class]) {
             UIAlertController *alert= [UIAlertController alertControllerWithTitle:CTFBLocalizedString(@"Error")
